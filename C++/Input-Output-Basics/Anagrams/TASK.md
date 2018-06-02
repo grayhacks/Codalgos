@@ -1,6 +1,8 @@
-#ANAGRAMS
 <html>
 <body>
+<h2>
+ANAGRAMS
+</h2>
 <p>
 Given two strings, a and b , that may or may not be of the same length,<br>
 determine the minimum number of character deletions required to make a and b anagrams.<br>
