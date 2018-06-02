@@ -37,7 +37,7 @@ string lengths<=10000
 </p>
 <p>
 
-<b>Note :<b>
+<b>Note :</b>
 
 Anagram of a word is formed by rearranging the letters of the word.<br><br>
 
