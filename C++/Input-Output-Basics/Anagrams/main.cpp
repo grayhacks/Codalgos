@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h> 
 #include <string>
+#include <cstddef>
 class string
 {
 	char str1[10000], str2[10000], str3[10000];//declaring the char variable;
@@ -60,7 +61,15 @@ class string
 		n=strlen(str3);
 		std::cout<<n<<"\n";
 		std::cout<<flag<<"\n";
-		ans=l+m-(2*n);
+		flag++;
+		if(flag!=-1)
+		{
+			ans=l+m-(2*flag);
+		}
+		else
+		{
+			ans=l+m;
+		}
 		std::cout<<ans<<"\n";
 		std::cout<<str3<<"\n";
 	}
